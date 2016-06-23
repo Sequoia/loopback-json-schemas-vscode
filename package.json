@@ -1,0 +1,27 @@
+{
+    "name": "loopback-json-schemas",
+    "displayName": "LoopBack 3 JSON Schemas",
+    "description": "JSONSchemas for LoopBack configuration & definition files",
+    "version": "0.0.1",
+    "publisher": "sequoia",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Other",
+        "Languages",
+        "Linters"
+    ],
+    "contributes": {
+        "jsonValidation": [
+            {
+              "fileMatch": "/common/models/*.json",
+              "url": "https://raw.githubusercontent.com/Sequoia/loopback-json-schemas/master/dist/loopback-model-definition.json"
+            },
+            {
+              "fileMatch": "/server/model-config*.json",
+              "url": "https://raw.githubusercontent.com/Sequoia/loopback-json-schemas/master/dist/loopback-model-config.schema.json"
+            }
+        ]
+    }
+}
