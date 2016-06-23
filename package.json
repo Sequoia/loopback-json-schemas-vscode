@@ -7,6 +7,12 @@
     "engines": {
         "vscode": "^1.0.0"
     },
+    "author": "Sequoia McDowell <sequoia.mcdowell@gmail.com> (http://sequoia.makes.software/)",
+    "repository": {
+      "type" : "git",
+      "url" : "https://github.com/Sequoia/loopback-json-schemas-vscode"
+    },
+    "icon" : "loopback.png",
     "categories": [
         "Other",
         "Languages",
