@@ -21,7 +21,7 @@
     "contributes": {
         "jsonValidation": [
             {
-              "fileMatch": "/common/models/*.json",
+              "fileMatch": "/*/models/*.json",
               "url": "https://raw.githubusercontent.com/Sequoia/loopback-json-schemas/master/dist/loopback-model-definition.json"
             },
             {
