@@ -1,33 +1,33 @@
 {
-    "name": "loopback-json-schemas",
-    "displayName": "LoopBack 3 JSON Schemas",
-    "description": "JSONSchemas for LoopBack configuration & definition files",
-    "version": "0.0.1",
-    "publisher": "sequoia",
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "author": "Sequoia McDowell <sequoia.mcdowell@gmail.com> (http://sequoia.makes.software/)",
-    "repository": {
-      "type" : "git",
-      "url" : "https://github.com/Sequoia/loopback-json-schemas-vscode"
-    },
-    "icon" : "loopback.png",
-    "categories": [
-        "Other",
-        "Languages",
-        "Linters"
-    ],
-    "contributes": {
-        "jsonValidation": [
-            {
-              "fileMatch": "/*/models/*.json",
-              "url": "https://raw.githubusercontent.com/Sequoia/loopback-json-schemas/master/dist/loopback-model-definition.json"
-            },
-            {
-              "fileMatch": "/server/model-config*.json",
-              "url": "https://raw.githubusercontent.com/Sequoia/loopback-json-schemas/master/dist/loopback-model-config.schema.json"
-            }
-        ]
-    }
+  "name": "loopback-json-schemas",
+  "displayName": "LoopBack 3 JSON Schemas",
+  "description": "JSONSchemas for LoopBack configuration & definition files",
+  "version": "0.0.2",
+  "publisher": "sequoia",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "author": "Sequoia McDowell <sequoia.mcdowell@gmail.com> (http://sequoia.makes.software/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sequoia/loopback-json-schemas-vscode"
+  },
+  "icon": "loopback.png",
+  "categories": [
+    "Other",
+    "Languages",
+    "Linters"
+  ],
+  "contributes": {
+    "jsonValidation": [
+      {
+        "fileMatch": "/*/models/*.json",
+        "url": "https://raw.githubusercontent.com/Sequoia/loopback-json-schemas/master/dist/loopback-model-definition.json"
+      },
+      {
+        "fileMatch": "/server/model-config*.json",
+        "url": "https://raw.githubusercontent.com/Sequoia/loopback-json-schemas/master/dist/loopback-model-config.schema.json"
+      }
+    ]
+  }
 }
