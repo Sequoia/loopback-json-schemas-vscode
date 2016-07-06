@@ -2,7 +2,7 @@
   "name": "loopback-json-schemas",
   "displayName": "LoopBack 3 JSON Schemas",
   "description": "JSONSchemas for LoopBack configuration & definition files",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "sequoia",
   "engines": {
     "vscode": "^1.0.0"
