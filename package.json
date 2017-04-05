@@ -27,6 +27,18 @@
       {
         "fileMatch": "/server/model-config*.json",
         "url": "https://raw.githubusercontent.com/Sequoia/loopback-json-schemas/master/dist/loopback-model-config.json"
+      },
+      {
+        "fileMatch": "/server/datasources*.json",
+        "url": "https://raw.githubusercontent.com/Sequoia/loopback-json-schemas/master/dist/loopback-datasources-config.json"
+      },
+      {
+        "fileMatch": "/server/config*.json",
+        "url": "https://raw.githubusercontent.com/Sequoia/loopback-json-schemas/master/dist/loopback-config.json"
+      },
+      {
+        "fileMatch": "/server/middleware*.json",
+        "url": "https://raw.githubusercontent.com/Sequoia/loopback-json-schemas/master/dist/loopback-middleware-config.json"
       }
     ]
   }
