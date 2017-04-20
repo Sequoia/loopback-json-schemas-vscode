@@ -1,6 +1,6 @@
 This extension links some [JSONSchemas](http://json-schema.org) to [Loopback](https://docs.strongloop.com/display/APIC/Using+LoopBack+with+IBM+API+Connect) configuration files.
 
-:information_source: Given the nature of loopback, schemas may never be 100% complete. Schemas used by this plugin can be found [here](https://github.com/Sequoia/loopback-json-schemas).
+:information_source: Schemas used by this plugin can be found [here](https://github.com/Sequoia/loopback-json-schemas). **Please do not file schema bugs on this repo!!** This repo is just for the plugin. :smile_cat: File schema bugs [here](https://github.com/Sequoia/loopback-json-schemas).
 
 # Currently implemented schemas
 
